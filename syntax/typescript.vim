@@ -1,2 +1,2 @@
 runtime extras/javascript.vim
-runtime extras/flow.vim
+runtime extras/typescript.vim

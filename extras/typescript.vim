@@ -9,7 +9,7 @@ syntax keyword tsType           contained boolean number string null void any mi
 syntax keyword tsTypeof         contained typeof skipempty skipwhite nextgroup=tsTypeCustom,tsType
 syntax match   tsTypeCustom     contained /[0-9a-zA-Z_.]*/ skipwhite skipempty nextgroup=tsGeneric
 syntax region  tsGeneric                  matchgroup=tsNoise start=/\k\@<=</ end=/>/ contains=@tsCluster containedin=@jsExpression,tsDeclareBlock
-syntax region  tsGeneric        contained matchgroup=tsNoise start=/</ end=/>(\@=/ oneline contains=@tsCluster containedin=@jsExpression,tsDeclareBlock
+" syntax region  tsGeneric        contained matchgroup=tsNoise start=/</ end=/>(\@=/ oneline contains=@tsCluster containedin=@jsExpression,tsDeclareBlock
 syntax region  tsObjectGeneric  contained matchgroup=tsNoise start=/\k\@<=</ end=/>/ contains=@tsCluster nextgroup=jsFuncArgs
 syntax match   tsArrow          contained /=>/ skipwhite skipempty nextgroup=tsType,tsTypeCustom,tsParens
 syntax match   tsObjectKey      contained /[0-9a-zA-Z_$?]*\(\s*:\)\@=/ contains=jsFunctionKey,tsMaybe skipwhite skipempty nextgroup=jsObjectValue containedin=jsObject

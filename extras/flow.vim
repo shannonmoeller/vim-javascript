@@ -9,7 +9,7 @@ syntax keyword jsFlowType           contained boolean number string null void an
 syntax keyword jsFlowTypeof         contained typeof skipempty skipwhite nextgroup=jsFlowTypeCustom,jsFlowType
 syntax match   jsFlowTypeCustom     contained /[0-9a-zA-Z_.]*/ skipwhite skipempty nextgroup=jsFlowGeneric
 syntax region  jsFlowGeneric                  matchgroup=jsFlowNoise start=/\k\@<=</ end=/>/ contains=@jsFlowCluster containedin=@jsExpression,jsFlowDeclareBlock
-syntax region  jsFlowGeneric        contained matchgroup=jsFlowNoise start=/</ end=/>(\@=/ oneline contains=@jsFlowCluster containedin=@jsExpression,jsFlowDeclareBlock
+" syntax region  jsFlowGeneric        contained matchgroup=jsFlowNoise start=/</ end=/>(\@=/ oneline contains=@jsFlowCluster containedin=@jsExpression,jsFlowDeclareBlock
 syntax region  jsFlowObjectGeneric  contained matchgroup=jsFlowNoise start=/\k\@<=</ end=/>/ contains=@jsFlowCluster nextgroup=jsFuncArgs
 syntax match   jsFlowArrow          contained /=>/ skipwhite skipempty nextgroup=jsFlowType,jsFlowTypeCustom,jsFlowParens
 syntax match   jsFlowObjectKey      contained /[0-9a-zA-Z_$?]*\(\s*:\)\@=/ contains=jsFunctionKey,jsFlowMaybe skipwhite skipempty nextgroup=jsObjectValue containedin=jsObject

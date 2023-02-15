@@ -106,12 +106,14 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsFlowTypeValue          PreProc
   HiLink jsFlowObjectFuncName     jsObjectFuncName
 
+  " Reskin
   HiLink jsFlowDefinition         Comment
   HiLink jsFlowClassDef           Type
   HiLink jsFlowArgumentDef        Type
   HiLink jsFlowType               Constant
   HiLink jsFlowTypeCustom         Type
   HiLink jsFlowTypeof             Type
+  HiLink jsFlowTypeofReturn       Type
   HiLink jsFlowArray              Label
   HiLink jsFlowObject             Normal
   HiLink jsFlowExactObject        Normal

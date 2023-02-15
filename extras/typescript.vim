@@ -106,6 +106,7 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink tsTypeValue          PreProc
   HiLink tsObjectFuncName     jsObjectFuncName
 
+  " Reskin
   HiLink tsDefinition         Comment
   HiLink tsClassDef           Type
   HiLink tsArgumentDef        Type

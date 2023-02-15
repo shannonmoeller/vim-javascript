@@ -340,11 +340,11 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsGlobalNodeObjects    Constant
   HiLink jsExceptions           Constant
   HiLink jsBuiltins             Constant
-  HiLink jsImport               Include
-  HiLink jsExport               Include
+  HiLink jsImport               Statement
+  HiLink jsExport               Statement
   HiLink jsExportDefault        StorageClass
   HiLink jsExportDefaultGroup   jsExportDefault
-  HiLink jsModuleAs             Include
+  HiLink jsModuleAs             Statement
   HiLink jsModuleComma          jsNoise
   HiLink jsModuleAsterisk       Noise
   HiLink jsFrom                 Include

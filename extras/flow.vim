@@ -105,5 +105,49 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsFlowImportType         PreProc
   HiLink jsFlowTypeValue          PreProc
   HiLink jsFlowObjectFuncName     jsObjectFuncName
+
+  HiLink jsFlowDefinition         Comment
+  HiLink jsFlowClassDef           Type
+  HiLink jsFlowArgumentDef        Type
+  HiLink jsFlowType               Constant
+  HiLink jsFlowTypeCustom         Type
+  HiLink jsFlowTypeof             Type
+  HiLink jsFlowArray              Label
+  HiLink jsFlowObject             Normal
+  HiLink jsFlowExactObject        Normal
+  HiLink jsFlowParens             Operator
+  HiLink jsFlowGroup              Type
+  HiLink jsFlowReturn             Type
+  HiLink jsFlowParenAnnotation    Comment
+  HiLink jsFlowReturnObject       Type
+  HiLink jsFlowReturnArray        Type
+  HiLink jsFlowReturnParens       Operator
+  HiLink jsFlowReturnGroup        Type
+  HiLink jsFlowFunctionGroup      Type
+  HiLink jsFlowClassGroup         Type
+  HiLink jsFlowClassFunctionGroup Type
+  HiLink jsFlowArrowArguments     Type
+  HiLink jsFlowArrow              Operator
+  HiLink jsFlowReturnArrow        Operator
+  HiLink jsFlowTypeStatement      StorageClass
+  HiLink jsFlowTypeKeyword        StorageClass
+  HiLink jsFlowTypeOperator       StorageClass
+  HiLink jsFlowMaybe              Operator
+  HiLink jsFlowReturnMaybe        Operator
+  HiLink jsFlowClassProperty      Normal
+  HiLink jsFlowDeclare            Include
+  HiLink jsFlowModule             Include
+  HiLink jsFlowInterface          Include
+  HiLink jsFlowNoise              Normal
+  HiLink jsFlowObjectKey          Normal
+  HiLink jsFlowOrOperator         Operator
+  HiLink jsFlowReturnOrOp         Operator
+  HiLink jsFlowWildcard           Operator
+  HiLink jsFlowWildcardReturn     Operator
+  HiLink jsFlowImportType         StorageClass
+  HiLink jsFlowTypeValue          Type
+
+  HiLink xmlTag    Tag
+  HiLink xmlEndTag Tag
   delcommand HiLink
 endif

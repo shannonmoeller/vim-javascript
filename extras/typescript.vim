@@ -105,5 +105,49 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink tsImportType         PreProc
   HiLink tsTypeValue          PreProc
   HiLink tsObjectFuncName     jsObjectFuncName
+
+  HiLink tsDefinition         Comment
+  HiLink tsClassDef           Type
+  HiLink tsArgumentDef        Type
+  HiLink tsType               Constant
+  HiLink tsTypeCustom         Type
+  HiLink tsTypeof             Type
+  HiLink tsArray              Label
+  HiLink tsObject             Normal
+  HiLink tsExactObject        Normal
+  HiLink tsParens             Operator
+  HiLink tsGroup              Type
+  HiLink tsReturn             Type
+  HiLink tsParenAnnotation    Comment
+  HiLink tsReturnObject       Type
+  HiLink tsReturnArray        Type
+  HiLink tsReturnParens       Operator
+  HiLink tsReturnGroup        Type
+  HiLink tsFunctionGroup      Type
+  HiLink tsClassGroup         Type
+  HiLink tsClassFunctionGroup Type
+  HiLink tsArrowArguments     Type
+  HiLink tsArrow              Operator
+  HiLink tsReturnArrow        Operator
+  HiLink tsTypeStatement      StorageClass
+  HiLink tsTypeKeyword        StorageClass
+  HiLink tsTypeOperator       StorageClass
+  HiLink tsMaybe              Operator
+  HiLink tsReturnMaybe        Operator
+  HiLink tsClassProperty      Normal
+  HiLink tsDeclare            Include
+  HiLink tsModule             Include
+  HiLink tsInterface          Include
+  HiLink tsNoise              Normal
+  HiLink tsObjectKey          Normal
+  HiLink tsOrOperator         Operator
+  HiLink tsReturnOrOp         Operator
+  HiLink tsWildcard           Operator
+  HiLink tsWildcardReturn     Operator
+  HiLink tsImportType         StorageClass
+  HiLink tsTypeValue          Type
+
+  HiLink xmlTag    Tag
+  HiLink xmlEndTag Tag
   delcommand HiLink
 endif

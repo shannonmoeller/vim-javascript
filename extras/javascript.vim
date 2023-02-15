@@ -319,23 +319,23 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsObjectColon          jsNoise
   HiLink jsNoise                Noise
   HiLink jsDot                  Noise
-  HiLink jsBrackets             Noise
-  HiLink jsParens               Noise
-  HiLink jsBraces               Noise
-  HiLink jsFuncBraces           Noise
-  HiLink jsFuncParens           Noise
-  HiLink jsClassBraces          Noise
+  HiLink jsBrackets             Brackets
+  HiLink jsParens               Brackets
+  HiLink jsBraces               Brackets
+  HiLink jsFuncBraces           Brackets
+  HiLink jsFuncParens           Brackets
+  HiLink jsClassBraces          Brackets
   HiLink jsClassNoise           Noise
-  HiLink jsIfElseBraces         Noise
-  HiLink jsTryCatchBraces       Noise
-  HiLink jsModuleBraces         Noise
-  HiLink jsObjectBraces         Noise
-  HiLink jsObjectSeparator      Noise
-  HiLink jsFinallyBraces        Noise
-  HiLink jsRepeatBraces         Noise
-  HiLink jsSwitchBraces         Noise
+  HiLink jsIfElseBraces         Brackets
+  HiLink jsTryCatchBraces       Brackets
+  HiLink jsModuleBraces         Brackets
+  HiLink jsObjectBraces         Brackets
+  HiLink jsObjectSeparator      Brackets
+  HiLink jsFinallyBraces        Brackets
+  HiLink jsRepeatBraces         Brackets
+  HiLink jsSwitchBraces         Brackets
   HiLink jsSpecial              Special
-  HiLink jsTemplateBraces       Noise
+  HiLink jsTemplateBraces       Brackets
   HiLink jsGlobalObjects        Constant
   HiLink jsGlobalNodeObjects    Constant
   HiLink jsExceptions           Constant
@@ -364,7 +364,7 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsBlockLabel           Identifier
   HiLink jsBlockLabelKey        jsBlockLabel
 
-  HiLink jsDestructuringBraces     Noise
+  HiLink jsDestructuringBraces     Brackets
   HiLink jsDestructuringProperty   jsFuncArgs
   HiLink jsDestructuringAssignment jsObjectKey
   HiLink jsDestructuringNoise      Noise

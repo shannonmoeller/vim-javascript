@@ -319,23 +319,23 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsObjectColon          jsNoise
   HiLink jsNoise                Noise
   HiLink jsDot                  Noise
-  HiLink jsBrackets             Brackets
-  HiLink jsParens               Brackets
-  HiLink jsBraces               Brackets
-  HiLink jsFuncBraces           Brackets
-  HiLink jsFuncParens           Brackets
-  HiLink jsClassBraces          Brackets
+  HiLink jsBrackets             Delimiter
+  HiLink jsParens               Delimiter
+  HiLink jsBraces               Delimiter
+  HiLink jsFuncBraces           Delimiter
+  HiLink jsFuncParens           Delimiter
+  HiLink jsClassBraces          Delimiter
   HiLink jsClassNoise           Noise
-  HiLink jsIfElseBraces         Brackets
-  HiLink jsTryCatchBraces       Brackets
-  HiLink jsModuleBraces         Brackets
-  HiLink jsObjectBraces         Brackets
-  HiLink jsObjectSeparator      Brackets
-  HiLink jsFinallyBraces        Brackets
-  HiLink jsRepeatBraces         Brackets
-  HiLink jsSwitchBraces         Brackets
+  HiLink jsIfElseBraces         Delimiter
+  HiLink jsTryCatchBraces       Delimiter
+  HiLink jsModuleBraces         Delimiter
+  HiLink jsObjectBraces         Delimiter
+  HiLink jsObjectSeparator      Delimiter
+  HiLink jsFinallyBraces        Delimiter
+  HiLink jsRepeatBraces         Delimiter
+  HiLink jsSwitchBraces         Delimiter
   HiLink jsSpecial              Special
-  HiLink jsTemplateBraces       Brackets
+  HiLink jsTemplateBraces       Delimiter
   HiLink jsGlobalObjects        Constant
   HiLink jsGlobalNodeObjects    Constant
   HiLink jsExceptions           Constant
@@ -364,7 +364,7 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsBlockLabel           Identifier
   HiLink jsBlockLabelKey        jsBlockLabel
 
-  HiLink jsDestructuringBraces     Brackets
+  HiLink jsDestructuringBraces     Delimiter
   HiLink jsDestructuringProperty   jsFuncArgs
   HiLink jsDestructuringAssignment jsObjectKey
   HiLink jsDestructuringNoise      Noise
